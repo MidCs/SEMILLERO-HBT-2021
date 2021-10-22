@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Indica el resultado de ejecución.
  * 
- * @author Johnny Soto
+ * @author midac Miguel Castaño
  *
  */
 public class ResultadoDTO implements Serializable {
