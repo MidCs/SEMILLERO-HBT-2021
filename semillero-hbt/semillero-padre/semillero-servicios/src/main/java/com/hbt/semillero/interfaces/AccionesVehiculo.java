@@ -8,7 +8,7 @@ import com.hbt.semillero.enums.TipoVehiculoEnum;
 /**
  * <b>Descripción:<b> Clase Abstract 
  * <b>Caso de Uso:<b> 
- * @author midac
+ * @author midac MIGUEL CASTAÑO
  * @version 
  */
 public abstract class AccionesVehiculo {
