@@ -55,7 +55,7 @@ public class CreacionComicTest {
 		
 
 		
-		ArrayList<ComicDTO> listaComics = new ArrayList<ComicDTO>();
+		
 
      	listaComics.add(new ComicDTO("01", "Superman", "DC", TematicaEnum.AVENTURAS, "Nueva", Integer.valueOf(100), BigDecimal.valueOf(50000), "Jerry Siegel", true, EstadoEnum.ACTIVO, Long.valueOf(20L)));
 		listaComics.add(new ComicDTO("02", "Batman", "DC", TematicaEnum.BELICO, "Nueva", Integer.valueOf(110), BigDecimal.valueOf(51000), "Pedro", false, EstadoEnum.ACTIVO, Long.valueOf(20L)));
