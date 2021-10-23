@@ -63,7 +63,7 @@ public class CreacionComicTest {
 		listaComics.add(new ComicDTO("0100", "LOBO2", "DC", TematicaEnum.CIENCIA_FICCION, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(250000), "Patrico Jey", true, EstadoEnum.ACTIVO, Long.valueOf(2L)));
 		listaComics.add(new ComicDTO("0101", "SPIDERMAN1", "Marvel", TematicaEnum.CIENCIA_FICCION, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(100000), "Robert Den", false, EstadoEnum.INACTIVO, Long.valueOf(2L)));
 		listaComics.add(new ComicDTO("0110", "SPIDERMAN2", "Marvel", TematicaEnum.CIENCIA_FICCION, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(100000), "Robert Den", false, EstadoEnum.ACTIVO, Long.valueOf(2L)));
-		listaComics.add(new ComicDTO("0111", "SPIDERMAN3, "Marvel", TematicaEnum.CIENCIA_FICCION, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(1000000), "Julieth Dest", true, EstadoEnum.ACTIVO, Long.valueOf(2L)));
+		listaComics.add(new ComicDTO("0111", "SPIDERMAN3", "Marvel", TematicaEnum.CIENCIA_FICCION, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(1000000), "Julieth Dest", true, EstadoEnum.ACTIVO, Long.valueOf(2L)));
 		listaComics.add(new ComicDTO("0000", "NARUTO", "Marvel", TematicaEnum.AVENTURAS, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(300000), "Robert Den", false, EstadoEnum.INACTIVO, Long.valueOf(1L)));
 		listaComics.add(new ComicDTO("1110", "BORUTO", "Marvel", TematicaEnum.AVENTURAS, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(500000), "Robert Den", false, EstadoEnum.ACTIVO, Long.valueOf(1L)));
 		listaComics.add(new ComicDTO("1111", "POKEMON", "Marvel", TematicaEnum.AVENTURAS, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(600000), "Robert Den", true, EstadoEnum.ACTIVO, Long.valueOf(2L)));
