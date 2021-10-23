@@ -57,17 +57,16 @@ public class CreacionComicTest {
 		
 		
 
-     	listaComics.add(new ComicDTO("01", "Superman", "DC", TematicaEnum.AVENTURAS, "Nueva", Integer.valueOf(100), BigDecimal.valueOf(50000), "Jerry Siegel", true, EstadoEnum.ACTIVO, Long.valueOf(20L)));
-		listaComics.add(new ComicDTO("02", "Batman", "DC", TematicaEnum.BELICO, "Nueva", Integer.valueOf(110), BigDecimal.valueOf(51000), "Pedro", false, EstadoEnum.ACTIVO, Long.valueOf(20L)));
-		listaComics.add(new ComicDTO("03", "Aquaman", "DC", TematicaEnum.FANTASTICO, "Nueva", Integer.valueOf(120), BigDecimal.valueOf(52000), "Pablo", true, EstadoEnum.ACTIVO, Long.valueOf(20L)));
-		listaComics.add(new ComicDTO("03", "Aquaman", "DC", TematicaEnum.AVENTURAS, "Nueva", Integer.valueOf(120), BigDecimal.valueOf(52000), "Pablo", true, EstadoEnum.ACTIVO, Long.valueOf(20L)));
-		listaComics.add(new ComicDTO("04", "WonderWoman", "DC", TematicaEnum.DEPORTIVO, "Nueva", Integer.valueOf(130), BigDecimal.valueOf(53000), "Lucas", false, EstadoEnum.INACTIVO, Long.valueOf(20L)));
-		listaComics.add(new ComicDTO("05", "Flash", "DC", TematicaEnum.FANTASTICO, "Nueva", Integer.valueOf(140), BigDecimal.valueOf(54000), "Henry", false, EstadoEnum.ACTIVO, Long.valueOf(20L)));
-		listaComics.add(new ComicDTO("06", "Iron Man", "Marvel", TematicaEnum.CIENCIA_FICCION, "Nueva", Integer.valueOf(150), BigDecimal.valueOf(55000), "Ana", true, EstadoEnum.ACTIVO, Long.valueOf(20L)));
-		listaComics.add(new ComicDTO("07", "Cap America", "Marvel", TematicaEnum.HISTORICO, "Nueva", Integer.valueOf(160), BigDecimal.valueOf(56000), "Teresa", false, EstadoEnum.INACTIVO, Long.valueOf(20L)));
-		listaComics.add(new ComicDTO("08", "Hulk", "Marvel", TematicaEnum.HORROR, "Nueva", Integer.valueOf(170), BigDecimal.valueOf(57000), "Elvira", false, EstadoEnum.ACTIVO, Long.valueOf(20L)));
-		listaComics.add(new ComicDTO("09", "Thor", "Marvel", TematicaEnum.AVENTURAS, "Nueva", Integer.valueOf(180), BigDecimal.valueOf(58000), "Julieta", true, EstadoEnum.ACTIVO, Long.valueOf(20L)));
-		listaComics.add(new ComicDTO("10", "Viuda Negra", "Marvel", TematicaEnum.BELICO, "Nueva", Integer.valueOf(190), BigDecimal.valueOf(59000), "Maradona", false, EstadoEnum.INACTIVO, Long.valueOf(20L)));
+                listaComics.add(new ComicDTO("0001", "JOKER1", "DC", TematicaEnum.BELICO, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(100000), "Miguel Castano", true, EstadoEnum.ACTIVO, Long.valueOf(10L)));
+		listaComics.add(new ComicDTO("0010", "JOKER2", "DC", TematicaEnum.BELICO, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(100000), "David Salgado", false, EstadoEnum.ACTIVO, Long.valueOf(50L)));
+		listaComics.add(new ComicDTO("0011", "LOBO1", "DC", TematicaEnum.CIENCIA_FICCION, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(200000), "Pedro Jey", true, EstadoEnum.ACTIVO, Long.valueOf(100L)));
+		listaComics.add(new ComicDTO("0100", "LOBO2", "DC", TematicaEnum.CIENCIA_FICCION, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(250000), "Patrico Jey", true, EstadoEnum.ACTIVO, Long.valueOf(2L)));
+		listaComics.add(new ComicDTO("0101", "SPIDERMAN1", "Marvel", TematicaEnum.CIENCIA_FICCION, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(100000), "Robert Den", false, EstadoEnum.INACTIVO, Long.valueOf(2L)));
+		listaComics.add(new ComicDTO("0110", "SPIDERMAN2", "Marvel", TematicaEnum.CIENCIA_FICCION, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(100000), "Robert Den", false, EstadoEnum.ACTIVO, Long.valueOf(2L)));
+		listaComics.add(new ComicDTO("0111", "SPIDERMAN3, "Marvel", TematicaEnum.CIENCIA_FICCION, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(1000000), "Julieth Dest", true, EstadoEnum.ACTIVO, Long.valueOf(2L)));
+		listaComics.add(new ComicDTO("0000", "NARUTO", "Marvel", TematicaEnum.AVENTURAS, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(300000), "Robert Den", false, EstadoEnum.INACTIVO, Long.valueOf(1L)));
+		listaComics.add(new ComicDTO("1110", "BORUTO", "Marvel", TematicaEnum.AVENTURAS, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(500000), "Robert Den", false, EstadoEnum.ACTIVO, Long.valueOf(1L)));
+		listaComics.add(new ComicDTO("1111", "POKEMON", "Marvel", TematicaEnum.AVENTURAS, "Nueva", Integer.valueOf(10), BigDecimal.valueOf(600000), "Robert Den", true, EstadoEnum.ACTIVO, Long.valueOf(2L)));
 		
 		try {
 			
